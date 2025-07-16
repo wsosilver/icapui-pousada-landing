@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Pousada theme colors
+				'ocean-blue': 'hsl(var(--ocean-blue))',
+				'ocean-light': 'hsl(var(--ocean-light))',
+				'sand-beige': 'hsl(var(--sand-beige))',
+				'tropical-teal': 'hsl(var(--tropical-teal))',
+				'sunset-gold': 'hsl(var(--sunset-gold))'
+			},
+			backgroundImage: {
+				'gradient-ocean': 'var(--gradient-ocean)',
+				'gradient-sunset': 'var(--gradient-sunset)',
+				'gradient-beach': 'var(--gradient-beach)'
+			},
+			boxShadow: {
+				'tropical': 'var(--shadow-tropical)',
+				'card-tropical': 'var(--shadow-card)',
+				'button-tropical': 'var(--shadow-button)'
+			},
+			fontFamily: {
+				'tropical': ['Inter', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
