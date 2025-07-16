@@ -1,74 +1,59 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { MapPin, Utensils, Bed } from 'lucide-react';
 
 export function AboutSection() {
   return (
-    <section className="py-16 px-4 bg-background">
+    <section id="sobre" className="py-24 px-4 bg-gradient-elegant">
       <div className="container mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Acomodações e Experiências</h2>
-          <div className="w-24 h-1 bg-gradient-ocean mx-auto mb-6"></div>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-light text-foreground mb-8">
+            Tradição & <span className="font-bold">Amor</span>
+          </h2>
+          
+          <div className="max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+              Nossa pequena pousada, além de brisa e maresia, perfuma o horizonte com 
+              elegância e hospitalidade, criando o retrato perfeito para momentos de 
+              tranquilidade em meio à natureza preservada de Icapuí.
+            </p>
+          </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="space-y-6">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Nossa pousada rústica e aconchegante está situada de frente para o mar, proporcionando 
-              uma experiência autêntica do litoral cearense. Aqui você encontra o equilíbrio perfeito 
-              entre o contato com a natureza preservada e o conforto necessário para dias inesquecíveis.
-            </p>
-            
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Desfrute de longas caminhadas na praia, relaxe em redes coloridas sob a sombra dos 
-              coqueiros, e saboreie a culinária regional preparada com ingredientes frescos da região. 
-              Nosso restaurante oferece pratos tradicionais e frutos do mar sempre frescos, em um 
-              ambiente familiar que celebra os sabores do Ceará.
-            </p>
-          </div>
+        <div className="grid lg:grid-cols-3 gap-8">
+          <Card className="shadow-soft border-0 bg-white/80 backdrop-blur-sm">
+            <CardContent className="p-8 text-center">
+              <h3 className="text-2xl font-light text-foreground mb-4">
+                <span className="font-bold">Ambiente</span> Rústico
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Acomodações aconchegantes que preservam o charme tradicional 
+                do litoral cearense, com todo conforto moderno.
+              </p>
+            </CardContent>
+          </Card>
 
-          <div className="space-y-6">
-            <Card className="shadow-card-tropical border-0">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-ocean p-3 rounded-full">
-                    <MapPin className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-foreground">De Frente Para o Mar</h3>
-                    <p className="text-muted-foreground">Vista privilegiada do oceano em todas as acomodações</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+          <Card className="shadow-soft border-0 bg-white/80 backdrop-blur-sm">
+            <CardContent className="p-8 text-center">
+              <h3 className="text-2xl font-light text-foreground mb-4">
+                <span className="font-bold">Vista</span> Privilegiada
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Localização única de frente para o mar, oferecendo vistas 
+                deslumbrantes do oceano e das falésias coloridas.
+              </p>
+            </CardContent>
+          </Card>
 
-            <Card className="shadow-card-tropical border-0">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-ocean p-3 rounded-full">
-                    <Utensils className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-foreground">Sabores Autênticos</h3>
-                    <p className="text-muted-foreground">Culinária regional com ingredientes frescos locais</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-card-tropical border-0">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-ocean p-3 rounded-full">
-                    <Bed className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-foreground">Ambiente Rústico</h3>
-                    <p className="text-muted-foreground">Acomodações aconchegantes em meio à natureza</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="shadow-soft border-0 bg-white/80 backdrop-blur-sm">
+            <CardContent className="p-8 text-center">
+              <h3 className="text-2xl font-light text-foreground mb-4">
+                <span className="font-bold">Culinária</span> Regional
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Restaurante com pratos tradicionais preparados com 
+                ingredientes frescos e sabores autênticos da região.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>

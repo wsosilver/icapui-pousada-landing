@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 250 250% 98%;
     --foreground: 210 24% 16%;
 
     --card: 0 0% 100%;
@@ -17,43 +17,43 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 24% 16%;
 
-    --primary: 210 100% 20%;
+    --primary: 210 100% 15%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96%;
     --secondary-foreground: 210 24% 16%;
 
-    --muted: 210 40% 96%;
+    --muted: 210 20% 88%;
     --muted-foreground: 210 16% 46%;
 
-    --accent: 200 100% 50%;
+    --accent: 200 60% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 31% 91%;
-    --input: 210 31% 91%;
-    --ring: 210 100% 20%;
+    --border: 210 25% 85%;
+    --input: 210 25% 85%;
+    --ring: 210 100% 15%;
 
-    /* Custom pousada theme colors */
-    --ocean-blue: 210 100% 20%;
-    --ocean-light: 200 100% 50%;
-    --sand-beige: 45 67% 88%;
-    --tropical-teal: 180 84% 40%;
-    --sunset-gold: 45 100% 60%;
+    /* Vila d'Este inspired theme */
+    --ocean-deep: 210 100% 15%;
+    --ocean-light: 200 60% 45%;
+    --sand-warm: 45 65% 92%;
+    --gold-accent: 45 90% 60%;
+    --sage-green: 140 25% 65%;
     
-    /* Gradients */
-    --gradient-ocean: linear-gradient(135deg, hsl(210 100% 20%), hsl(200 100% 50%));
-    --gradient-sunset: linear-gradient(135deg, hsl(45 100% 60%), hsl(15 100% 65%));
-    --gradient-beach: linear-gradient(180deg, hsl(200 100% 50%), hsl(45 67% 88%));
+    /* Elegant gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 15%), hsl(200 60% 45%));
+    --gradient-elegant: linear-gradient(180deg, hsl(250 250% 98%), hsl(210 20% 88%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 90% 60%), hsl(45 65% 92%));
     
-    /* Shadows */
-    --shadow-tropical: 0 10px 30px -5px hsl(210 100% 20% / 0.3);
-    --shadow-card: 0 4px 12px -2px hsl(210 100% 20% / 0.15);
-    --shadow-button: 0 4px 14px 0 hsl(210 100% 20% / 0.4);
+    /* Refined shadows */
+    --shadow-elegant: 0 8px 32px -8px hsl(210 100% 15% / 0.2);
+    --shadow-soft: 0 4px 16px -4px hsl(210 100% 15% / 0.1);
+    --shadow-button: 0 4px 20px -2px hsl(210 100% 15% / 0.3);
 
-    --radius: 0.5rem;
+    --radius: 8px;
 
     --sidebar-background: 0 0% 98%;
 

@@ -62,25 +62,25 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Pousada theme colors
-				'ocean-blue': 'hsl(var(--ocean-blue))',
+				// Vila d'Este inspired theme colors
+				'ocean-deep': 'hsl(var(--ocean-deep))',
 				'ocean-light': 'hsl(var(--ocean-light))',
-				'sand-beige': 'hsl(var(--sand-beige))',
-				'tropical-teal': 'hsl(var(--tropical-teal))',
-				'sunset-gold': 'hsl(var(--sunset-gold))'
+				'sand-warm': 'hsl(var(--sand-warm))',
+				'gold-accent': 'hsl(var(--gold-accent))',
+				'sage-green': 'hsl(var(--sage-green))'
 			},
 			backgroundImage: {
-				'gradient-ocean': 'var(--gradient-ocean)',
-				'gradient-sunset': 'var(--gradient-sunset)',
-				'gradient-beach': 'var(--gradient-beach)'
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-elegant': 'var(--gradient-elegant)',
+				'gradient-accent': 'var(--gradient-accent)'
 			},
 			boxShadow: {
-				'tropical': 'var(--shadow-tropical)',
-				'card-tropical': 'var(--shadow-card)',
-				'button-tropical': 'var(--shadow-button)'
+				'elegant': 'var(--shadow-elegant)',
+				'soft': 'var(--shadow-soft)',
+				'button': 'var(--shadow-button)'
 			},
 			fontFamily: {
-				'tropical': ['Inter', 'system-ui', 'sans-serif']
+				'elegant': ['Inter', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

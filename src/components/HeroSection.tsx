@@ -8,33 +8,41 @@ export function HeroSection() {
   };
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-sand-beige/30 to-background">
-      <div className="container mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Sobre a Pousada
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-            A nossa pousada oferece um ambiente rústico e aconchegante, de frente para o mar, onde você 
-            pode relaxar e aproveitar a natureza preservada. Caminhe pela praia, descanse em uma rede à 
-            sombra dos coqueiros e conheça a comunidade local.
-          </p>
+    <section className="min-h-screen flex items-center justify-center bg-gradient-elegant pt-20 px-4">
+      <div className="container mx-auto text-center">
+        <div className="max-w-4xl mx-auto mb-16">
+          <h1 className="text-5xl md:text-7xl font-light text-foreground mb-8 leading-tight">
+            Descubra a <span className="font-bold">Pousada do Francisco</span>
+          </h1>
+          
+          <div className="max-w-3xl mx-auto mb-12">
+            <h2 className="text-2xl md:text-3xl font-light text-muted-foreground mb-8">
+              Experiências <span className="font-bold">Sob Medida</span>
+            </h2>
+            
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+              Muito além da hospedagem, somos o ponto de encontro de experiências singulares. 
+              Inspirados na beleza natural de Icapuí, fazemos da elegância e do aconchego 
+              o cenário ideal para que você se sinta em sua casa de praia.
+            </p>
+            
+            <p className="text-lg text-muted-foreground italic mb-12">
+              Uma experiência discreta e personalizada te espera em nossa pousada.
+            </p>
+          </div>
+
           <Button 
-            variant="tropical" 
-            size="xl" 
+            variant="default" 
+            size="lg"
             onClick={scrollToContact}
-            className="mb-12"
+            className="bg-primary hover:bg-primary/90 shadow-button text-lg px-8 py-4"
           >
-            Reserve Agora
+            Reserve Sua Experiência
           </Button>
         </div>
 
-        <ImageCarousel />
-
-        <div className="text-center mt-12">
-          <p className="text-lg text-muted-foreground italic">
-            "Um refúgio onde o mar encontra a hospitalidade cearense"
-          </p>
+        <div className="mt-16">
+          <ImageCarousel />
         </div>
       </div>
     </section>
