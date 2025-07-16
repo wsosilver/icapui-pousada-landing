@@ -15,7 +15,8 @@ export function ContactSection() {
           <h2 className="text-4xl font-bold text-foreground mb-4">Faça Sua Reserva</h2>
           <div className="w-24 h-1 bg-gradient-ocean mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Entre em contato conosco e garante já sua estadia em um dos destinos mais belos do Ceará.
+            Venha viver uma experiência única em contato com a natureza preservada de Icapuí. 
+            Reserve sua estadia e descubra o charme rústico do litoral cearense.
           </p>
         </div>
 
@@ -81,10 +82,10 @@ export function ContactSection() {
           <div className="text-center space-y-8">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-tropical">
               <h3 className="text-3xl font-bold text-foreground mb-4">
-                Pronto para sua próxima aventura?
+                Sua próxima experiência rústica à beira-mar
               </h3>
               <p className="text-lg text-muted-foreground mb-8">
-                Entre em contato conosco pelo WhatsApp e faça sua reserva de forma rápida e prática.
+                Conecte-se conosco e reserve um momento de tranquilidade em meio à natureza preservada de Icapuí.
               </p>
               <Button 
                 variant="tropical" 

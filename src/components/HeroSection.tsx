@@ -12,11 +12,12 @@ export function HeroSection() {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Bem-vindos ao Paraíso de Icapuí
+            Sobre a Pousada
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-            Desfrute de momentos únicos em uma das regiões mais preservadas e belas do litoral cearense. 
-            Nossa pousada oferece a combinação perfeita entre natureza exuberante, conforto e sabores autênticos.
+            A nossa pousada oferece um ambiente rústico e aconchegante, de frente para o mar, onde você 
+            pode relaxar e aproveitar a natureza preservada. Caminhe pela praia, descanse em uma rede à 
+            sombra dos coqueiros e conheça a comunidade local.
           </p>
           <Button 
             variant="tropical" 
